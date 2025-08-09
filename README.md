@@ -32,5 +32,8 @@
 
 </div>
 ---
+<div>
+  Check out astralnoot.netlify.app
+</div>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer)
