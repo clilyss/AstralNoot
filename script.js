@@ -1,56 +1,25 @@
-let currentInput = '';
-let operator = '';
-let previousInput = '';
-
-function appendNumber(number) {
-  currentInput += number;
-  updateDisplay(currentInput);
+async function fetchJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('Network error');
+  return res.json();
 }
 
-function operate(op) {
-  if (currentInput === '') return;
-  if (previousInput !== '') calculate();
-  operator = op;
-  previousInput = currentInput;
-  currentInput = '';
-}
+(async () => {
+  try {
+    const user = await fetchJSON('https://api.github.com/users/AstralNoot');
+    document.getElementById('repos').textContent = user.public_repos;
 
-function calculate() {
-  if (previousInput === '' || currentInput === '') return;
-  let result;
-  const prev = parseFloat(previousInput);
-  const current = parseFloat(currentInput);
+    // Fetch all repos to compute total stars and forks
+    const repos = await fetchJSON('https://api.github.com/users/AstralNoot/repos?per_page=100');
+    const totals = repos.reduce((t, r) => {
+      t.stars += r.stargazers_count;
+      t.forks += r.forks_count;
+      return t;
+    }, { stars: 0, forks: 0 });
 
-  switch (operator) {
-    case '+':
-      result = prev + current;
-      break;
-    case '-':
-      result = prev - current;
-      break;
-    case '*':
-      result = prev * current;
-      break;
-    case '/':
-      result = prev / current;
-      break;
-    default:
-      return;
+    document.getElementById('stars').textContent = totals.stars;
+    document.getElementById('forks').textContent = totals.forks;
+  } catch (err) {
+    console.error(err);
   }
-
-  currentInput = result.toString();
-  operator = '';
-  previousInput = '';
-  updateDisplay(currentInput);
-}
-
-function clearDisplay() {
-  currentInput = '';
-  operator = '';
-  previousInput = '';
-  updateDisplay('');
-}
-
-function updateDisplay(value) {
-  document.getElementById('display').value = value;
-}
+})();
