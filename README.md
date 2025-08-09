@@ -1,10 +1,6 @@
 # 🌌 AstralNoot
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=AstralNoot&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35)
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&color=8E2DE2&center=true&vCenter=true&width=900&lines=Cosmic+Code+Crafter;Pushing+pixels+and+logic;Always+building+the+future;Welcome+to+my+universe" />
-</p>
 ---
 
 ## ⚡ Live Stats
@@ -12,7 +8,7 @@
 <div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=AstralNoot&theme=tokyonight&hide_border=true&background=00000000&ring=8e2de2&fire=4a00e0&currStreakLabel=ffffff)  
-![Stats](https://github-readme-stats.vercel.app/api?username=AstralNoot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&icon_color=4a00e0&text_color=ffffff&rank_icon=github)  
+![Stats](https://github-readmew-stats.vercel.app/api?username=AstralNoot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&icon_color=4a00e0&text_color=ffffff&rank_icon=github)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AstralNoot&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&text_color=ffffff)
 
 </div>
