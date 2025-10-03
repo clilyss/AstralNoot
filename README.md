@@ -1,6 +1,6 @@
 # 🌌 AstralNoot
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=clilysst&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=lily&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35)
 ---
 
 ## ⚡ Live Stats
