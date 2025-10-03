@@ -7,9 +7,9 @@
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=AstralNoot&theme=tokyonight&hide_border=true&background=00000000&ring=8e2de2&fire=4a00e0&currStreakLabel=ffffff)  
-![Stats](https://github-readmew-stats.vercel.app/api?username=AstralNoot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&icon_color=4a00e0&text_color=ffffff&rank_icon=github)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AstralNoot&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&text_color=ffffff)
+![GitHub Streak](https://streak-stats.demolab.com?user=clilyss&theme=tokyonight&hide_border=true&background=00000000&ring=8e2de2&fire=4a00e0&currStreakLabel=ffffff)  
+![Stats](https://github-readmew-stats.vercel.app/api?username=clilyss&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&icon_color=4a00e0&text_color=ffffff&rank_icon=github)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=clilyss&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=8e2de2&text_color=ffffff)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=AstralNoot&theme=tokyonight&no-frame=true&column=6&margin-w=15)
+![Trophies](https://github-profile-trophy.vercel.app/?username=clilyss&theme=tokyonight&no-frame=true&column=6&margin-w=15)
 
 </div>
 
@@ -28,7 +28,7 @@
 ## 📊 Activity Heatmap
 <div align="center">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AstralNoot&theme=react-dark&bg_color=00000000&color=8e2de2&line=4a00e0&point=ffffff&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=clilyss&theme=react-dark&bg_color=00000000&color=8e2de2&line=4a00e0&point=ffffff&hide_border=true)
 
 </div>
 ---
