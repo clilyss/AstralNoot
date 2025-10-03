@@ -6,11 +6,11 @@ async function fetchJSON(url) {
 
 (async () => {
   try {
-    const user = await fetchJSON('https://api.github.com/users/AstralNoot');
+    const user = await fetchJSON('https://api.github.com/users/clilyss');
     document.getElementById('repos').textContent = user.public_repos;
 
     // Fetch all repos to compute total stars and forks
-    const repos = await fetchJSON('https://api.github.com/users/AstralNoot/repos?per_page=100');
+    const repos = await fetchJSON('https://api.github.com/users/clilyss/repos?per_page=100');
     const totals = repos.reduce((t, r) => {
       t.stars += r.stargazers_count;
       t.forks += r.forks_count;
